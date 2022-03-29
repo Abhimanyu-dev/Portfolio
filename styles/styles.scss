@@ -271,7 +271,7 @@ section {
       transition: all 0.4s ease-in-out;
       transform: translate(-50%, -50%);
       font-weight: 800;
-      font-size: 6.3rem;
+      font-size: 5rem;
     }
   }
 }
@@ -471,7 +471,7 @@ section {
     border-radius: 15px;
     &:hover{
       .hover-item{
-        opacity: 1;
+        opacity: 0.75;
         transform: scale(1);
         transition: all 0.4s ease-in-out;
 
@@ -498,10 +498,16 @@ section {
       opacity: 0;
       transform: scale(0);
       transform: all .4s ease-in-out;
+      .hover-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
       h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         color: var(--color-white);
-        margin-bottom: 1.5rem;
+        margin-top: 1rem;
       }
       .icons {
         display: flex;
@@ -509,9 +515,9 @@ section {
         align-items: center;
         background-color: var(--color-primary);
         border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin: 0 1rem;
+        width: 40px;
+        height: 40px;
+        margin: 0 ;
         cursor: pointer;
         transition: all 0.4s ease-in-out;
         i {

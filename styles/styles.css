@@ -372,7 +372,7 @@ section {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-weight: 800;
-  font-size: 6.3rem;
+  font-size: 5rem;
 }
 
 .about-container {
@@ -636,7 +636,7 @@ section {
 }
 
 .port .portfolio-item:hover .hover-item {
-  opacity: 1;
+  opacity: 0.75;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.4s ease-in-out;
@@ -679,10 +679,26 @@ section {
           transform: all .4s ease-in-out;
 }
 
+.port .portfolio-item .hover-item .hover-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .port .portfolio-item .hover-item h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--color-white);
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 .port .portfolio-item .hover-item .icons {
@@ -697,9 +713,9 @@ section {
           align-items: center;
   background-color: var(--color-primary);
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin: 0 1rem;
+  width: 40px;
+  height: 40px;
+  margin: 0;
   cursor: pointer;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
