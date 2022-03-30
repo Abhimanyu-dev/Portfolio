@@ -161,6 +161,17 @@
       transition: all 0.4s ease-in-out;
     }
   }
+  .main-title {
+    h2 {
+      font-size: 3rem;
+      span {
+        font-size: 3rem;
+      }
+      .bg-text {
+        font-size: 5rem;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -172,15 +183,5 @@
       grid-template-columns: 1fr;
     }
   }
-  .main-title {
-    h2 {
-      font-size: 3rem;
-      span {
-        font-size: 3rem;
-      }
-      .bg-text {
-        font-size: 3rem;
-      }
-    }
-  }
+  
 }

@@ -364,6 +364,7 @@ section {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 70%;
   color: var(--color-grey-5);
   z-index: -1;
   -webkit-transition: all 0.4s ease-in-out;
@@ -1176,6 +1177,15 @@ section {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
+  .main-title h2 {
+    font-size: 3rem;
+  }
+  .main-title h2 span {
+    font-size: 3rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 5rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -1185,15 +1195,6 @@ section {
   .about-stats .progress-bars {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-  }
-  .main-title h2 {
-    font-size: 3rem;
-  }
-  .main-title h2 span {
-    font-size: 3rem;
-  }
-  .main-title h2 .bg-text {
-    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
